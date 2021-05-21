@@ -1,0 +1,31 @@
+Auto usate
+
+id : INT ( PRIMARY KEY (UNIQUE - AUTO_INCREMENT) - MEDIUMINT)
+
+marca : STRINGA (VARCHAR(30) - INDEX - NOTNULL )
+
+modello : STRINGA ( VARCHAR(100)  - NOTNULL)
+
+anno_immatricolazione : DATA ( YEAR(YYYY) - INDEX - NOTNULL )
+
+km_percorsi : INT ( MEDIUMINT - NOTNULL)
+
+carburante : STRINGA ( VARCHAR(15) - NOTNULL )
+
+cambio : STRINGA ( VARCHAR(15) - NOTNULL )
+
+colore : STRINGA ( VARCHAR(20) - NOTNULL)
+
+revisionata : BOOLEANO ( TINYINT )
+
+prezzo_vendita : FLOAT ( 5,3 ) - NOTNULL
+
+numero_posti : INT ( TINYINT -  NOTNULL )
+
+numero_porte : INT ( TINYINT -  NOTNULL )
+
+classe_emissioni : STRINGA ( VARCHAR(15) )
+
+annuncio_pubblicato : DATA ( DATE(YYYY-MM-GG))
+
+
